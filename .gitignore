@@ -6,11 +6,23 @@ __pycache__/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore all files in data/ but keep .gitkeep
+# Ignore all files in data/ but keep folder structure placeholders
 data/*
 !data/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Environment files
+*.env
 
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+# Package build/egg info
+*.egg-info/
+build/
+dist/
 
