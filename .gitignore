@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore all files in data/ but keep .gitkeep
+data/*
+!data/.gitkeep
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
