@@ -17,6 +17,8 @@ data/processed/*
 # Environment files
 *.env
 
+#test caches
+.pytest_cache
 # OS-specific files
 .DS_Store
 Thumbs.db
